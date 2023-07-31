@@ -1,0 +1,9 @@
+$bg: skyblue;
+$primary: aliceblue;
+$danger: salmon;
+
+@import 'bootstrap/scss/bootstrap';
+
+body {
+  background-color: $bg;
+}
