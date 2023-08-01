@@ -11856,3 +11856,9 @@ textarea.form-control-lg {
 body {
   background-color: skyblue;
 }
+
+.logo {
+  width: 7rem;
+  margin: 2rem auto;
+  display: block;
+}
