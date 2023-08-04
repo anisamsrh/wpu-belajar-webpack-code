@@ -34,7 +34,18 @@ module.exports = {
             ]
           }
         }
-      }
-    ]
+      },
+      {
+        test: /\.html$/i,
+        loader: "html-loader", // agar src di file html menyesuaikan dengan aset yg dibundle
+      },
+      {
+        test: /\.(png|svg|jpe?g|gif)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'logo/[name][ext]'
+        }
+      },
+    ],
   }
 }

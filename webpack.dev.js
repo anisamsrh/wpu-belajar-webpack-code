@@ -8,6 +8,7 @@ module.exports = merge(config, {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
+    assetModuleFilename: 'img/[name][ext][query]',
     clean: true,
   },
   devServer: {
